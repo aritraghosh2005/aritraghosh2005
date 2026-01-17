@@ -1,0 +1,53 @@
+<svg width="800" height="100" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: 'Segoe UI', sans-serif;
+      font-weight: 800;
+      font-size: 50px;
+      fill: #FFFFFF;
+      text-anchor: middle;
+    }
+    
+    /* Animation Schedule (Total 10s loop) */
+    .t1 { opacity: 0; animation: fade1 10s infinite; }
+    .t2 { opacity: 0; animation: fade2 10s infinite; }
+    .curtain { fill: #3F8CFF; animation: wipe 10s infinite; }
+
+    /* Text 1: Frankenste!n (Shows at 1.5s, Hides at 4.5s) */
+    @keyframes fade1 {
+      0%, 10% { opacity: 0; }
+      15%, 45% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    /* Text 2: CSE Undergrad (Shows at 6.5s, Hides at 9.5s) */
+    @keyframes fade2 {
+      0%, 60% { opacity: 0; }
+      65%, 95% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    /* Curtain Wipe Logic */
+    @keyframes wipe {
+      /* Reveal Text 1 */
+      0% { width: 0; x: 0; }
+      10% { width: 100%; x: 0; }
+      20% { width: 0; x: 100%; }
+      
+      /* Reset (Invisible) */
+      20.1%, 50% { width: 0; x: 0; }
+      
+      /* Reveal Text 2 */
+      50% { width: 0; x: 0; }
+      60% { width: 100%; x: 0; }
+      70% { width: 0; x: 100%; }
+      
+      /* Reset (Invisible) */
+      70.1%, 100% { width: 0; x: 0; }
+    }
+  </style>
+
+  <text x="50%" y="65%" class="text t1">Hi, I'm Frankenste!n</text>
+  <text x="50%" y="65%" class="text t2">CSE Undergrad @VIT</text>
+  <rect class="curtain" x="0" y="0" height="100" />
+</svg>
