@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/aritraghosh2005/aritraghosh2005@main/banner.svg" width="600" alt="Animated Header" />
+  <img src="https://cdn.jsdelivr.net/gh/aritraghosh2005/aritraghosh2005@main/banner.svg?v=99" width="600" alt="Animated Header" />
 </div>
 
 <br/>
