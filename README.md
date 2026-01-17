@@ -63,5 +63,5 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/aritraghosh2005/aritraghosh2005/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/aritraghosh2005/aritraghosh2005/output/github-contribution-grid-snake.svg" width="100%" alt="Snake animation" />
 </div>
