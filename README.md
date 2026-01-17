@@ -28,9 +28,9 @@
 
 ### 🛠️ Tech Stack
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,cpp,c,js,ts,react,nodejs,html,css,git,github,vscode,vercel&theme=dark" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=java,cpp,c,js,ts,html,css&theme=dark" alt="Languages" />
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,git,github,vscode,vercel&theme=dark" alt="Tools" />
 </div>
 
 ---
