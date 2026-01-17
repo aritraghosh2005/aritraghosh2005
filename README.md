@@ -28,9 +28,24 @@
 
 ### 🛠️ Tech Stack
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,cpp,c,js,ts,html,css&theme=dark" alt="Languages" />
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,git,github,vscode,vercel&theme=dark" alt="Tools" />
+
+  <img src="https://img.shields.io/badge/Java-3F8CFF?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-3F8CFF?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-3F8CFF?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-3F8CFF?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3F8CFF?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-3F8CFF?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-3F8CFF?style=for-the-badge&logo=css3&logoColor=white" />
+  
+  <br/>
+
+  <img src="https://img.shields.io/badge/React-3F8CFF?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-3F8CFF?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-3F8CFF?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-3F8CFF?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-3F8CFF?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-3F8CFF?style=for-the-badge&logo=vercel&logoColor=white" />
+
 </div>
 
 ---
