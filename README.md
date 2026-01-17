@@ -1,24 +1,42 @@
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/aritraghosh2005/aritraghosh2005@main/banner.svg?v=99" width="600" alt="Animated Header" />
 </div>
+
 <br/>
+
 <div align="center">
+<table width="100%">
+<tr>
+
+<td align="center" valign="middle" width="15%">
+  <h3>Reach Out</h3>
   <a href="https://github.com/aritraghosh2005" title="Check my commits">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" width="150" />
+  </a><br/>
   <a href="https://www.hackerrank.com/profile/aritraghosh_ag21" title="Problem Solving">
-    <img src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" />
-  </a>
+    <img src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" width="150" />
+  </a><br/>
   <a href="https://www.facebook.com/aritraghosh.ag2005" title="IRL Updates">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
-  </a>
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" width="150" />
+  </a><br/>
   <a href="mailto:aritraghosh.ag2005@gmail.com" title="Hire Me / Hello">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" width="150" />
+  </a><br/>
   <a href="https://discord.com/users/1287804596919734338" title="Let's Chat">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" width="150" />
   </a>
+</td>
+
+<td align="center" valign="middle" width="90%">
+  <h3>📊 GitHub Stats</h3>
+  <img src="https://github-readme-stats-vert-eight-34.vercel.app/api?username=aritraghosh2005&show_icons=true&theme=dark&hide_border=false" height="165" alt="stats graph" />
+  <img src="https://github-readme-stats-vert-eight-34.vercel.app/api/top-langs?username=aritraghosh2005&layout=compact&langs_count=6&theme=dark&hide_border=false" height="165" alt="languages graph" />
+</td>
+
+</tr>
+</table>
 </div>
+
 <br/>
 
 ---
@@ -43,13 +61,6 @@
 </div>
 
 ---
-
-### 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats-vert-eight-34.vercel.app/api?username=aritraghosh2005&show_icons=true&theme=dark&hide_border=false" height="150" alt="stats graph" />
-  
-  <img src="https://github-readme-stats-vert-eight-34.vercel.app/api/top-langs?username=aritraghosh2005&layout=compact&langs_count=6&theme=dark&hide_border=false" height="150" alt="languages graph" />
-</div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/aritraghosh2005/aritraghosh2005/output/github-contribution-grid-snake.svg" alt="Snake animation" />
