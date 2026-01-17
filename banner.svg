@@ -1,12 +1,19 @@
 <svg width="600" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
   <style>
-    /* Global Text Styles */
+    /* Global Text Styles - Default (Dark Mode) */
     .text {
       font-family: 'Segoe UI', sans-serif;
       font-weight: 800;
       font-size: 50px;
-      fill: #FFFFFF;
+      fill: #FFFFFF; /* White text for Dark Mode */
       text-anchor: middle;
+    }
+
+    /* Light Mode Override */
+    @media (prefers-color-scheme: light) {
+      .text {
+        fill: #000000; /* Black text for Light Mode */
+      }
     }
 
     /* Animation Configuration: 10s Loop */
@@ -14,7 +21,7 @@
     .t2 { opacity: 0; animation: revealText2 10s infinite; }
     .curtain { fill: #3F8CFF; animation: curtainWipe 10s infinite; }
 
-    /* Text 1: Visible from 10% (after first cover) to 60% (before second cover) */
+    /* Text 1 Animation */
     @keyframes revealText1 {
       0% { opacity: 0; }
       10% { opacity: 0; }
@@ -24,7 +31,7 @@
       100% { opacity: 0; }
     }
 
-    /* Text 2: Visible from 60% (after second cover) to 10% (loop reset) */
+    /* Text 2 Animation */
     @keyframes revealText2 {
       0% { opacity: 0; }
       60% { opacity: 0; }
@@ -32,13 +39,7 @@
       100% { opacity: 1; }
     }
 
-    /* Curtain Animation:
-       0-10%: Grows L->R (Covers)
-       10-20%: Shrinks L->R (Reveals)
-       ... Pause ...
-       50-60%: Grows L->R (Covers)
-       60-70%: Shrinks L->R (Reveals)
-    */
+    /* Curtain Animation */
     @keyframes curtainWipe {
       /* First Wipe (Reveal Text 1) */
       0% { width: 0; x: 0; }
