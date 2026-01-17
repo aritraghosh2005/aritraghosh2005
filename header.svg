@@ -1,0 +1,37 @@
+<svg width="800" height="100" viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Font Settings */
+    .text {
+      font-family: 'Segoe UI', sans-serif;
+      font-weight: 800;
+      font-size: 50px;
+      fill: #FFFFFF;
+      opacity: 0;
+      animation: appear 1s linear forwards;
+      animation-delay: 1s; /* Reveals while block is covering it */
+    }
+    
+    /* The Blue Block */
+    .curtain {
+      fill: #3F8CFF;
+      animation: wipe 2.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+    }
+
+    /* Animation Keyframes */
+    @keyframes wipe {
+      0% { width: 0; x: 0; }
+      40% { width: 100%; x: 0; }   /* Fill Screen */
+      60% { width: 100%; x: 0; }   /* Pause */
+      100% { width: 0; x: 100%; }  /* Move Right & Disappear */
+    }
+    
+    @keyframes appear {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+
+  <text x="50%" y="65%" text-anchor="middle" class="text">Hi, I'm Aritra Ghosh!</text>
+
+  <rect class="curtain" x="0" y="0" height="100" />
+</svg>
