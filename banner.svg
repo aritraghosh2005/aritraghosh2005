@@ -47,4 +47,20 @@
       
       /* Reset Position Invisible */
       20.1% { width: 0; x: 0; } 
-      50% { width: 0; x: 0
+      50% { width: 0; x: 0; }
+
+      /* Second Wipe (Reveal Text 2) */
+      60% { width: 100%; x: 0; }      /* Fully Covered */
+      70% { width: 0; x: 100%; }      /* Fully Revealed */
+      
+      /* Reset Position Invisible */
+      70.1% { width: 0; x: 0; }
+      100% { width: 0; x: 0; }
+    }
+  </style>
+
+  <text x="50%" y="65%" class="text t1">Hi, I'm Frankenste!n</text>
+  <text x="50%" y="65%" class="text t2">CSE Undergrad @VIT</text>
+
+  <rect class="curtain" x="0" y="0" height="100" />
+</svg>
