@@ -27,10 +27,10 @@
   </a>
 </td>
 
-<td align="center" valign="middle" width="90%">
+<td align="center" valign="middle" width="85%">
   <h3>📊 GitHub Stats</h3>
-  <img src="https://github-readme-stats-vert-eight-34.vercel.app/api?username=aritraghosh2005&show_icons=true&theme=dark&hide_border=false" height="165" alt="stats graph" />
-  <img src="https://github-readme-stats-vert-eight-34.vercel.app/api/top-langs?username=aritraghosh2005&layout=compact&langs_count=6&theme=dark&hide_border=false" height="165" alt="languages graph" />
+  <img src="https://github-readme-stats-vert-eight-34.vercel.app/api?username=aritraghosh2005&show_icons=true&theme=dark&hide_border=false" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats-vert-eight-34.vercel.app/api/top-langs?username=aritraghosh2005&layout=compact&langs_count=6&theme=dark&hide_border=false" height="150" alt="languages graph" />
 </td>
 
 </tr>
