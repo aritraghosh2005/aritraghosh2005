@@ -1,24 +1,24 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/aritraghosh2005/aritraghosh2005/main/header.svg?v=1" width="800" alt="Animated Header" />
+  <img src="https://raw.githack.com/aritraghosh2005/aritraghosh2005/main/header.svg" width="800" alt="Animated Header" />
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://github.com/aritraghosh2005" title="Visit my GitHub">
-    <img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white" height="50" />
+  <a href="https://github.com/aritraghosh2005" title="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="50" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.hackerrank.com/profile/aritraghosh_ag21" title="View HackerRank Profile">
-    <img src="https://img.shields.io/badge/-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" height="50" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.hackerrank.com/profile/aritraghosh_ag21" title="HackerRank">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" height="50" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.facebook.com/aritraghosh.ag2005" title="Add me on Facebook">
-    <img src="https://img.shields.io/badge/-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="50" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.facebook.com/aritraghosh.ag2005" title="Facebook">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="50" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:aritraghosh.ag2005@gmail.com" title="Email Me">
-    <img src="https://img.shields.io/badge/-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="50" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:aritraghosh.ag2005@gmail.com" title="Gmail">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="50" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://discord.com/users/1287804596919734338" title="Chat on Discord">
-    <img src="https://img.shields.io/badge/-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="50" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://discord.com/users/1287804596919734338" title="Discord">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="50" />
   </a>
 </div>
 
