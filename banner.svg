@@ -7,6 +7,7 @@
       font-size: 50px;
       fill: #FFFFFF; /* White text for Dark Mode */
       text-anchor: middle;
+      dominant-baseline: middle; /* Ensures vertical centering */
     }
 
     /* Light Mode Override */
@@ -16,52 +17,52 @@
       }
     }
 
-    /* Animation Configuration: 10s Loop */
-    .t1 { opacity: 0; animation: revealText1 10s infinite; }
-    .t2 { opacity: 0; animation: revealText2 10s infinite; }
-    .curtain { fill: #3F8CFF; animation: curtainWipe 10s infinite; }
+    /* Animation Configuration: 12s Loop for smoother timing */
+    .t1 { opacity: 1; animation: swapText1 12s infinite linear; }
+    .t2 { opacity: 0; animation: swapText2 12s infinite linear; }
+    .curtain { fill: #3F8CFF; animation: curtainWipe 12s infinite cubic-bezier(0.4, 0, 0.2, 1); }
 
-    /* Text 1 Animation */
-    @keyframes revealText1 {
-      0% { opacity: 0; }
-      10% { opacity: 0; }
-      10.1% { opacity: 1; }
-      60% { opacity: 1; }
-      60.1% { opacity: 0; }
-      100% { opacity: 0; }
+    /* Text 1: Visible first half, Hidden second half */
+    @keyframes swapText1 {
+      0% { opacity: 1; }
+      49% { opacity: 1; }  /* Stay visible until fully covered */
+      50% { opacity: 0; }  /* Instant swap while covered */
+      99% { opacity: 0; }
+      100% { opacity: 1; } /* Reset for loop */
     }
 
-    /* Text 2 Animation */
-    @keyframes revealText2 {
+    /* Text 2: Hidden first half, Visible second half */
+    @keyframes swapText2 {
       0% { opacity: 0; }
-      60% { opacity: 0; }
-      60.1% { opacity: 1; }
-      100% { opacity: 1; }
+      49% { opacity: 0; }
+      50% { opacity: 1; }  /* Instant swap while covered */
+      99% { opacity: 1; }
+      100% { opacity: 0; } /* Reset for loop */
     }
 
     /* Curtain Animation */
     @keyframes curtainWipe {
-      /* First Wipe (Reveal Text 1) */
-      0% { width: 0; x: 0; }
-      10% { width: 100%; x: 0; }      /* Fully Covered */
-      20% { width: 0; x: 100%; }      /* Fully Revealed */
+      /* --- Start: Reveal Text 1 --- */
+      0% { x: 0; width: 100%; }       /* Starts covering everything */
+      10% { x: 100%; width: 0; }      /* Wipes away to right */
       
-      /* Reset Position Invisible */
-      20.1% { width: 0; x: 0; } 
-      50% { width: 0; x: 0; }
-
-      /* Second Wipe (Reveal Text 2) */
-      60% { width: 100%; x: 0; }      /* Fully Covered */
-      70% { width: 0; x: 100%; }      /* Fully Revealed */
+      /* --- Wait displaying Text 1 --- */
+      40% { x: 0; width: 0; }         /* Stays invisible (reset pos) */
       
-      /* Reset Position Invisible */
-      70.1% { width: 0; x: 0; }
-      100% { width: 0; x: 0; }
+      /* --- Middle: Cover T1, Swap, Reveal T2 --- */
+      50% { x: 0; width: 100%; }      /* Wipes in to cover T1 */
+      60% { x: 100%; width: 0; }      /* Wipes away to reveal T2 */
+      
+      /* --- Wait displaying Text 2 --- */
+      90% { x: 0; width: 0; }         /* Stays invisible (reset pos) */
+      
+      /* --- End: Cover T2, Loop back to T1 --- */
+      100% { x: 0; width: 100%; }     /* Wipes in to cover T2 */
     }
   </style>
 
-  <text x="50%" y="65%" class="text t1">Hi, I'm Frankenste!n</text>
-  <text x="50%" y="65%" class="text t2">CSE Undergrad @VIT</text>
+  <text x="50%" y="55%" class="text t1">Hi, I'm Frankenste!n</text>
+  <text x="50%" y="55%" class="text t2">CSE Undergrad @VIT</text>
 
   <rect class="curtain" x="0" y="0" height="100" />
 </svg>
